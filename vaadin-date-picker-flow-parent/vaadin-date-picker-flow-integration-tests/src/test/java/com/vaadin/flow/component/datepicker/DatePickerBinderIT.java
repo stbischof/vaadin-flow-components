@@ -15,15 +15,16 @@
  */
 package com.vaadin.flow.component.datepicker;
 
-import com.vaadin.flow.component.datepicker.testbench.DatePickerElement;
-import com.vaadin.tests.AbstractComponentIT;
-import com.vaadin.flow.testutil.TestPath;
+import java.time.LocalDate;
+import java.util.Collections;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.time.LocalDate;
-import java.util.Collections;
+import com.vaadin.flow.component.datepicker.testbench.DatePickerElement;
+import com.vaadin.flow.testutil.TestPath;
+import com.vaadin.tests.AbstractComponentIT;
 
 
 /**

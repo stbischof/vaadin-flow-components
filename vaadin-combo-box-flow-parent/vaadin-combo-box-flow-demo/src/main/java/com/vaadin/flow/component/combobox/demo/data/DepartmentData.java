@@ -1,9 +1,9 @@
 package com.vaadin.flow.component.combobox.demo.data;
 
-import com.vaadin.flow.component.combobox.demo.entity.Department;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import com.vaadin.flow.component.combobox.demo.entity.Department;
 
 public class DepartmentData {
 

@@ -1,9 +1,10 @@
 package com.vaadin.flow.component.details;
 
-import com.vaadin.flow.component.html.Span;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import com.vaadin.flow.component.html.Span;
 
 public class DetailsTest {
 

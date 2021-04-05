@@ -1,5 +1,8 @@
 package com.vaadin.flow.component.charts.model;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 /*-
  * #%L
  * Vaadin Charts for Flow
@@ -15,8 +18,6 @@ package com.vaadin.flow.component.charts.model;
 
 
 import com.vaadin.flow.component.charts.model.style.Color;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * <p>

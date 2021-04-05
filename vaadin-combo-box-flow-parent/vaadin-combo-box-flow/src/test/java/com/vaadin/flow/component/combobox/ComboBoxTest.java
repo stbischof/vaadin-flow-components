@@ -15,6 +15,8 @@
  */
 package com.vaadin.flow.component.combobox;
 
+import static org.junit.Assert.assertEquals;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -45,7 +47,6 @@ import com.vaadin.flow.server.VaadinSession;
 import com.vaadin.flow.shared.Registration;
 
 import elemental.json.Json;
-import static org.junit.Assert.assertEquals;
 
 public class ComboBoxTest {
 

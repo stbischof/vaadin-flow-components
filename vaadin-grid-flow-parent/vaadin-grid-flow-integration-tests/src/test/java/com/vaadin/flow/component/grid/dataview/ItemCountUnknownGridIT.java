@@ -16,12 +16,13 @@
 
 package com.vaadin.flow.component.grid.dataview;
 
-import com.vaadin.flow.internal.Range;
-import com.vaadin.flow.testutil.TestPath;
+import static com.vaadin.flow.component.grid.it.dataview.AbstractItemCountGridPage.DEFAULT_DATA_PROVIDER_SIZE;
+
 import org.junit.Assert;
 import org.junit.Test;
 
-import static com.vaadin.flow.component.grid.it.dataview.AbstractItemCountGridPage.DEFAULT_DATA_PROVIDER_SIZE;
+import com.vaadin.flow.internal.Range;
+import com.vaadin.flow.testutil.TestPath;
 
 @TestPath("vaadin-grid/item-count-unknown")
 public class ItemCountUnknownGridIT extends AbstractItemCountGridIT {

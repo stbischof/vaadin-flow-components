@@ -1,7 +1,8 @@
 package com.vaadin.flow.component.select.test;
 
-import com.vaadin.flow.testutil.TestPath;
 import org.junit.Test;
+
+import com.vaadin.flow.testutil.TestPath;
 
 /**
  * Tests for selecting items.

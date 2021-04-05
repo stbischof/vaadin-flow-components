@@ -1,5 +1,7 @@
 package com.vaadin.flow.component.charts.demo.examples.lineandscatter;
 
+import java.util.Random;
+
 import com.vaadin.flow.component.charts.Chart;
 import com.vaadin.flow.component.charts.demo.AbstractChartExample;
 import com.vaadin.flow.component.charts.model.AxisTitle;
@@ -11,8 +13,6 @@ import com.vaadin.flow.component.charts.model.DataSeriesItem;
 import com.vaadin.flow.component.charts.model.PlotOptionsSpline;
 import com.vaadin.flow.component.charts.model.XAxis;
 import com.vaadin.flow.component.charts.model.YAxis;
-
-import java.util.Random;
 
 public class SplineUpdatingEachSecond extends AbstractChartExample {
 

@@ -19,11 +19,11 @@ import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Set;
 
-import com.helger.commons.mutable.MutableBoolean;
 import org.easymock.Capture;
 import org.junit.Assert;
 import org.junit.Test;
 
+import com.helger.commons.mutable.MutableBoolean;
 import com.vaadin.flow.component.Text;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;

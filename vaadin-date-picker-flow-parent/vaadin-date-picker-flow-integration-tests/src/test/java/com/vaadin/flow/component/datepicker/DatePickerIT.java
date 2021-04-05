@@ -15,6 +15,8 @@
  */
 package com.vaadin.flow.component.datepicker;
 
+import static org.junit.Assert.assertTrue;
+
 import java.time.LocalDate;
 import java.time.Month;
 
@@ -25,10 +27,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import com.vaadin.flow.component.datepicker.testbench.DatePickerElement;
-import com.vaadin.tests.ComponentDemoTest;
 import com.vaadin.testbench.TestBenchElement;
-
-import static org.junit.Assert.assertTrue;
+import com.vaadin.tests.ComponentDemoTest;
 
 /**
  * Integration tests for the {@link DatePickerViewDemoPage}.

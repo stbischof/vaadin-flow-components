@@ -1,16 +1,17 @@
 package com.vaadin.flow.component.upload.tests;
 
-import com.vaadin.tests.AbstractComponentIT;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.internal.WrapsElement;
 import org.openqa.selenium.remote.LocalFileDetector;
 import org.openqa.selenium.remote.RemoteWebElement;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import com.vaadin.tests.AbstractComponentIT;
 
 public abstract class AbstractUploadIT extends AbstractComponentIT {
     /**

@@ -1,12 +1,12 @@
 package com.vaadin.flow.component.richtexteditor.examples;
 
+import java.util.stream.Stream;
+
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.NativeButton;
 import com.vaadin.flow.component.richtexteditor.RichTextEditor;
 import com.vaadin.flow.data.value.ValueChangeMode;
 import com.vaadin.flow.router.Route;
-
-import java.util.stream.Stream;
 
 @Route(value = "vaadin-rich-text-editor/set-html-value")
 public class RichTextEditorSetHtmlValuePage extends Div {

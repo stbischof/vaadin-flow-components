@@ -1,14 +1,15 @@
 package com.vaadin.flow.component.confirmdialog.test;
 
-import com.vaadin.flow.component.button.testbench.ButtonElement;
-import com.vaadin.flow.component.confirmdialog.examples.Dimensions;
-import com.vaadin.flow.component.confirmdialog.testbench.ConfirmDialogElement;
-import com.vaadin.testbench.TestBenchElement;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import com.vaadin.flow.component.button.testbench.ButtonElement;
+import com.vaadin.flow.component.confirmdialog.examples.Dimensions;
+import com.vaadin.flow.component.confirmdialog.testbench.ConfirmDialogElement;
+import com.vaadin.testbench.TestBenchElement;
 
 /**
  * DimensionsIT

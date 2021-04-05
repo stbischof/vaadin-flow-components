@@ -1,5 +1,7 @@
 package com.vaadin.flow.component.login.testbench;
 
+import org.openqa.selenium.StaleElementReferenceException;
+
 /*
  * #%L
  * Vaadin Login Testbench API
@@ -25,7 +27,6 @@ import com.vaadin.flow.component.textfield.testbench.PasswordFieldElement;
 import com.vaadin.flow.component.textfield.testbench.TextFieldElement;
 import com.vaadin.testbench.TestBenchElement;
 import com.vaadin.testbench.elementsbase.Element;
-import org.openqa.selenium.StaleElementReferenceException;
 
 /**
  * TestBench element for the <code>&lt;vaadin-login-overlay&gt;</code> element

@@ -2,10 +2,11 @@ package com.vaadin.flow.component.select.test;
 
 import java.util.List;
 
-import com.vaadin.flow.component.select.testbench.SelectElement;
-import com.vaadin.flow.testutil.TestPath;
 import org.junit.Assert;
 import org.junit.Test;
+
+import com.vaadin.flow.component.select.testbench.SelectElement;
+import com.vaadin.flow.testutil.TestPath;
 
 @TestPath("vaadin-select/")
 public class DataProviderIT extends AbstractSelectIT {

@@ -15,14 +15,15 @@
  */
 package com.vaadin.flow.component.timepicker.tests;
 
+import java.time.LocalTime;
+
+import javax.validation.constraints.NotNull;
+
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.timepicker.TimePicker;
 import com.vaadin.flow.data.binder.Binder;
 import com.vaadin.flow.dom.Element;
 import com.vaadin.flow.router.Route;
-
-import javax.validation.constraints.NotNull;
-import java.time.LocalTime;
 
 @Route("vaadin-time-picker/binder-validation")
 public class BinderValidationPage extends Div {

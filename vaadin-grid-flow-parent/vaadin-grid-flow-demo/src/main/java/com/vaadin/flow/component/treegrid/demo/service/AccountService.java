@@ -1,11 +1,11 @@
 package com.vaadin.flow.component.treegrid.demo.service;
 
-import com.vaadin.flow.component.treegrid.demo.data.AccountData;
-import com.vaadin.flow.component.treegrid.demo.entity.Account;
-
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
+
+import com.vaadin.flow.component.treegrid.demo.data.AccountData;
+import com.vaadin.flow.component.treegrid.demo.entity.Account;
 
 public class AccountService {
     private AccountData accountData = new AccountData();

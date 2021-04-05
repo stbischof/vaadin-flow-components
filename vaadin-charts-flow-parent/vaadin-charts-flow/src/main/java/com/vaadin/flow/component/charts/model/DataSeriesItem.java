@@ -1,5 +1,8 @@
 package com.vaadin.flow.component.charts.model;
 
+import java.time.Instant;
+import java.util.Date;
+
 /*-
  * #%L
  * Vaadin Charts for Flow
@@ -16,9 +19,6 @@ package com.vaadin.flow.component.charts.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.vaadin.flow.component.charts.model.style.Color;
-
-import java.time.Instant;
-import java.util.Date;
 
 /**
  * The DataSeriesItem class represents a single entry in a {@link DataSeries}.

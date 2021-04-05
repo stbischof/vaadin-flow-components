@@ -1,11 +1,11 @@
 package com.vaadin.flow.component.customfield;
 
+import java.util.function.Consumer;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
-
-import java.util.function.Consumer;
 
 @SuppressWarnings("unchecked")
 public class CustomFieldTest {

@@ -1,8 +1,8 @@
 package com.vaadin.flow.component.crud;
 
-import com.vaadin.flow.testutil.ClassesSerializableTest;
-
 import java.util.stream.Stream;
+
+import com.vaadin.flow.testutil.ClassesSerializableTest;
 
 public class CrudSerializableTest extends ClassesSerializableTest {
 

@@ -15,6 +15,9 @@
  */
 package com.vaadin.flow.component.treegrid.it;
 
+import static com.vaadin.flow.component.treegrid.it.TreeGridHugeTreePage.addItems;
+import static com.vaadin.flow.component.treegrid.it.TreeGridHugeTreePage.addRootItems;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Stream;
@@ -29,9 +32,6 @@ import com.vaadin.flow.data.provider.hierarchy.TreeData;
 import com.vaadin.flow.data.provider.hierarchy.TreeDataProvider;
 import com.vaadin.flow.function.SerializablePredicate;
 import com.vaadin.flow.router.Route;
-
-import static com.vaadin.flow.component.treegrid.it.TreeGridHugeTreePage.addItems;
-import static com.vaadin.flow.component.treegrid.it.TreeGridHugeTreePage.addRootItems;
 
 @Route("vaadin-grid/treegrid-page-size")
 public class TreeGridPageSizePage extends Div {

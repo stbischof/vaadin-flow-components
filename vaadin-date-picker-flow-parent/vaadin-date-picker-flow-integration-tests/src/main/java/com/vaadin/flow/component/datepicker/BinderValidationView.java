@@ -1,12 +1,13 @@
 package com.vaadin.flow.component.datepicker;
 
+import java.time.LocalDate;
+
+import javax.validation.constraints.NotNull;
+
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.data.binder.Binder;
 import com.vaadin.flow.dom.Element;
 import com.vaadin.flow.router.Route;
-
-import javax.validation.constraints.NotNull;
-import java.time.LocalDate;
 
 @Route("vaadin-date-picker/binder-validation")
 public class BinderValidationView extends Div {

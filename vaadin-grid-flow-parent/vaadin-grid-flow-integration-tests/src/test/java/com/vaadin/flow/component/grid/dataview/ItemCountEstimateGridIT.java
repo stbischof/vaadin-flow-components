@@ -16,9 +16,10 @@
 
 package com.vaadin.flow.component.grid.dataview;
 
-import com.vaadin.flow.testutil.TestPath;
 import org.junit.Assert;
 import org.junit.Test;
+
+import com.vaadin.flow.testutil.TestPath;
 
 @TestPath("vaadin-grid/item-count-estimate")
 public class ItemCountEstimateGridIT extends AbstractItemCountGridIT {

@@ -15,14 +15,15 @@
  */
 package com.vaadin.flow.component.timepicker.tests;
 
-import com.vaadin.flow.component.timepicker.testbench.TimePickerElement;
-import com.vaadin.tests.AbstractComponentIT;
-import com.vaadin.flow.testutil.TestPath;
+import java.util.Collections;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.Collections;
+import com.vaadin.flow.component.timepicker.testbench.TimePickerElement;
+import com.vaadin.flow.testutil.TestPath;
+import com.vaadin.tests.AbstractComponentIT;
 
 /**
  * Integration tests for the {@link BinderValidationPage}.

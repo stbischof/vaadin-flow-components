@@ -1,5 +1,7 @@
 package com.vaadin.flow.component.charts.events.internal;
 
+import java.io.Serializable;
+
 /*-
  * #%L
  * Vaadin Charts for Flow
@@ -15,8 +17,6 @@ package com.vaadin.flow.component.charts.events.internal;
 
 
 import com.vaadin.flow.component.charts.model.Series;
-
-import java.io.Serializable;
 
 /**
  * Base class for series events.

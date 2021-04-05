@@ -1,9 +1,9 @@
 package com.vaadin.flow.component.datepicker;
 
+import java.util.stream.Stream;
+
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.testutil.ClassesSerializableTest;
-
-import java.util.stream.Stream;
 
 public class DatePickerSerializableTest extends ClassesSerializableTest {
 

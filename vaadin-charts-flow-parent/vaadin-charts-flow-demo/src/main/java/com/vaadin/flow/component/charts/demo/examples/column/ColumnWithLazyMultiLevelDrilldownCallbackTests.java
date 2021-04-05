@@ -1,5 +1,8 @@
 package com.vaadin.flow.component.charts.demo.examples.column;
 
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.charts.Chart;
 import com.vaadin.flow.component.charts.demo.AbstractChartExample;
@@ -18,9 +21,6 @@ import com.vaadin.flow.component.html.ListItem;
 import com.vaadin.flow.component.html.NativeButton;
 import com.vaadin.flow.component.html.OrderedList;
 import com.vaadin.flow.function.SerializableRunnable;
-
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 @SuppressWarnings("serial")
 @SkipFromDemo

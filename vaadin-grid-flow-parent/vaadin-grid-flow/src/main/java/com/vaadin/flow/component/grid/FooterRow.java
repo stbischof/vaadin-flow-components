@@ -19,7 +19,6 @@ import java.util.Collection;
 import java.util.List;
 
 import com.vaadin.flow.component.Component;
-import com.vaadin.flow.component.grid.AbstractRow.AbstractCell;
 import com.vaadin.flow.component.grid.FooterRow.FooterCell;
 
 /**

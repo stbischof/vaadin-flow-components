@@ -1,5 +1,7 @@
 package com.vaadin.flow.component.crud;
 
+import java.io.Serializable;
+
 /*
  * #%L
  * Vaadin Crud for Vaadin 10
@@ -17,8 +19,6 @@ package com.vaadin.flow.component.crud;
  */
 
 import com.vaadin.flow.component.Component;
-
-import java.io.Serializable;
 
 /**
  * Interface representing a crud editor.

@@ -1,9 +1,10 @@
 package com.vaadin.flow.component.select.test;
 
-import com.vaadin.flow.testutil.TestPath;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
+
+import com.vaadin.flow.testutil.TestPath;
 
 @TestPath("vaadin-select/")
 public class BasicFeaturesIT extends AbstractSelectIT {

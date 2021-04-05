@@ -1,11 +1,12 @@
 package com.vaadin.flow.component.textfield.tests;
 
-import com.vaadin.tests.AbstractComponentIT;
-import com.vaadin.flow.testutil.TestPath;
-import com.vaadin.testbench.TestBenchElement;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.Keys;
+
+import com.vaadin.flow.testutil.TestPath;
+import com.vaadin.testbench.TestBenchElement;
+import com.vaadin.tests.AbstractComponentIT;
 
 @TestPath("vaadin-text-field/required-field-custom-validator")
 public class TextFieldRequiredWithCustomValidationIT extends AbstractComponentIT {

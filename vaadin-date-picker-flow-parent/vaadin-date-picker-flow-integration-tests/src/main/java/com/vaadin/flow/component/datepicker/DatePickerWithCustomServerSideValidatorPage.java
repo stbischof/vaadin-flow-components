@@ -15,11 +15,11 @@
  */
 package com.vaadin.flow.component.datepicker;
 
+import java.time.LocalDate;
+
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.data.binder.Binder;
 import com.vaadin.flow.router.Route;
-
-import java.time.LocalDate;
 
 /**
  * View for testing custom validation with {@link DatePicker}.

@@ -16,12 +16,12 @@
 
 package com.vaadin.flow.component.tabs.tests;
 
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
+
 import org.junit.Test;
 
 import com.vaadin.flow.component.tabs.Tab;
-
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.*;
 
 /**
  * @author Vaadin Ltd.

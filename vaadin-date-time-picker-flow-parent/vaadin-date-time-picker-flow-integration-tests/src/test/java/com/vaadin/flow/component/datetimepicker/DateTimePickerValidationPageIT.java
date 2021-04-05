@@ -15,14 +15,15 @@
  */
 package com.vaadin.flow.component.datetimepicker;
 
-import com.vaadin.flow.component.datetimepicker.testbench.DateTimePickerElement;
-import com.vaadin.tests.AbstractValidationTest;
-import com.vaadin.flow.testutil.TestPath;
-import com.vaadin.testbench.TestBenchElement;
+import java.time.LocalDateTime;
+
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.time.LocalDateTime;
+import com.vaadin.flow.component.datetimepicker.testbench.DateTimePickerElement;
+import com.vaadin.flow.testutil.TestPath;
+import com.vaadin.testbench.TestBenchElement;
+import com.vaadin.tests.AbstractValidationTest;
 
 /**
  * Integration tests for {@link DateTimePicker} validation.

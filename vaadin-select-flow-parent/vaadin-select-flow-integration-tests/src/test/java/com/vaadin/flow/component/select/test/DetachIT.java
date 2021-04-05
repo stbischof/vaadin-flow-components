@@ -4,8 +4,8 @@ import static org.junit.Assert.assertFalse;
 
 import org.junit.Test;
 
-import com.vaadin.tests.AbstractComponentIT;
 import com.vaadin.flow.testutil.TestPath;
+import com.vaadin.tests.AbstractComponentIT;
 
 @TestPath("vaadin-select/reattach-test")
 public class DetachIT extends AbstractComponentIT {

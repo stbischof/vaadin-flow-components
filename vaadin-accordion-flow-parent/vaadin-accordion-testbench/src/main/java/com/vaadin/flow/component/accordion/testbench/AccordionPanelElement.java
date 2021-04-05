@@ -1,5 +1,9 @@
 package com.vaadin.flow.component.accordion.testbench;
 
+import static com.vaadin.flow.component.accordion.testbench.AccordionElement.OPENED_PROPERTY;
+
+import com.vaadin.flow.component.details.testbench.DetailsElement;
+
 /*
  * Copyright 2000-2019 Vaadin Ltd.
  *
@@ -17,9 +21,6 @@ package com.vaadin.flow.component.accordion.testbench;
  */
 
 import com.vaadin.testbench.elementsbase.Element;
-import com.vaadin.flow.component.details.testbench.DetailsElement;
-
-import static com.vaadin.flow.component.accordion.testbench.AccordionElement.OPENED_PROPERTY;
 
 /**
  * TestBench element for the vaadin-accordion-panel element

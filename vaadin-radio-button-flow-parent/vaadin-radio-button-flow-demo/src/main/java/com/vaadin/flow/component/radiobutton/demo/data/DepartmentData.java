@@ -1,9 +1,9 @@
 package com.vaadin.flow.component.radiobutton.demo.data;
 
-import com.vaadin.flow.component.radiobutton.demo.entity.Department;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import com.vaadin.flow.component.radiobutton.demo.entity.Department;
 
 public class DepartmentData {
 

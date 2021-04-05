@@ -16,12 +16,13 @@
 
 package com.vaadin.flow.component.avatar.tests;
 
-import com.vaadin.flow.component.avatar.Avatar;
-import com.vaadin.flow.component.avatar.AvatarVariant;
+import java.util.Set;
+
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.Set;
+import com.vaadin.flow.component.avatar.Avatar;
+import com.vaadin.flow.component.avatar.AvatarVariant;
 
 /**
  * @author Vaadin Ltd.

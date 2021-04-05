@@ -1,11 +1,11 @@
 package com.vaadin.flow.component.grid.demo.data;
 
-import com.vaadin.flow.component.grid.demo.entity.Task;
-
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.vaadin.flow.component.grid.demo.entity.Task;
 
 public class TaskData {
     private List<Task> TASK_LIST = createTaskList();

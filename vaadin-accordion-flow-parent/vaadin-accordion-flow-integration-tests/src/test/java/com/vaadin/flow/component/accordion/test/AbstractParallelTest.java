@@ -3,13 +3,11 @@ package com.vaadin.flow.component.accordion.test;
 import java.util.Arrays;
 import java.util.List;
 
-import com.vaadin.flow.component.orderedlayout.testbench.VerticalLayoutElement;
 import org.junit.Assert;
 import org.openqa.selenium.Dimension;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-
+import com.vaadin.flow.component.orderedlayout.testbench.VerticalLayoutElement;
 import com.vaadin.testbench.parallel.BrowserUtil;
 import com.vaadin.tests.ParallelTest;
 

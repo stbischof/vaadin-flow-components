@@ -1,19 +1,20 @@
 package com.vaadin.flow.component.grid;
 
-import com.vaadin.flow.component.Component;
-import com.vaadin.flow.component.html.Label;
-import com.vaadin.flow.data.renderer.IconRenderer;
-import org.junit.Before;
-import org.junit.Test;
-
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.stream.Collectors;
-
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertSame;
+
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.stream.Collectors;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.vaadin.flow.component.Component;
+import com.vaadin.flow.component.html.Label;
+import com.vaadin.flow.data.renderer.IconRenderer;
 
 public class GridColumnOrderTest {
     private Grid<String> grid;

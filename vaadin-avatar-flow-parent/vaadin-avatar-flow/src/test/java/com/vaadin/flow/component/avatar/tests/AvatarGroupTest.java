@@ -16,16 +16,17 @@
 
 package com.vaadin.flow.component.avatar.tests;
 
-import com.vaadin.flow.component.avatar.AvatarGroup;
-import com.vaadin.flow.component.avatar.AvatarGroup.AvatarGroupItem;
-import com.vaadin.flow.component.avatar.AvatarGroupVariant;
-import org.junit.Assert;
-import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import com.vaadin.flow.component.avatar.AvatarGroup;
+import com.vaadin.flow.component.avatar.AvatarGroup.AvatarGroupItem;
+import com.vaadin.flow.component.avatar.AvatarGroupVariant;
 
 /**
  * @author Vaadin Ltd.

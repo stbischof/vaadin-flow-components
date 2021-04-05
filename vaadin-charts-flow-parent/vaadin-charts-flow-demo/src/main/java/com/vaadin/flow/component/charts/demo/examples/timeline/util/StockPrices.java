@@ -1,12 +1,12 @@
 package com.vaadin.flow.component.charts.demo.examples.timeline.util;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class StockPrices {
 

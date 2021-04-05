@@ -15,7 +15,6 @@ package com.vaadin.flow.component.charts.events;
 
 import java.io.Serializable;
 
-
 import com.vaadin.flow.component.charts.Chart;
 
 public interface HasAxis<T> extends Serializable {

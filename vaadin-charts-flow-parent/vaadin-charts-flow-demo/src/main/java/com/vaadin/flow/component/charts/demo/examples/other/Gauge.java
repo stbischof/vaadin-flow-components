@@ -1,5 +1,7 @@
 package com.vaadin.flow.component.charts.demo.examples.other;
 
+import java.util.Random;
+
 import com.vaadin.flow.component.charts.Chart;
 import com.vaadin.flow.component.charts.demo.AbstractChartExample;
 import com.vaadin.flow.component.charts.model.ChartType;
@@ -13,8 +15,6 @@ import com.vaadin.flow.component.charts.model.SeriesTooltip;
 import com.vaadin.flow.component.charts.model.TickPosition;
 import com.vaadin.flow.component.charts.model.YAxis;
 import com.vaadin.flow.component.dependency.CssImport;
-
-import java.util.Random;
 
 @CssImport(value="./styles/Gauge.css", themeFor = "vaadin-chart", include = "vaadin-chart-default-theme")
 public class Gauge extends AbstractChartExample {

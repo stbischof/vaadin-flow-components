@@ -1,5 +1,7 @@
 package com.vaadin.flow.component.charts.model.serializers;
 
+import java.io.IOException;
+
 /*
  * #%L
  * Vaadin Charts
@@ -20,8 +22,6 @@ import com.fasterxml.jackson.databind.Module;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.vaadin.flow.component.charts.model.style.GradientColor;
-
-import java.io.IOException;
 
 public class GradientColorStopsSerializer
         extends JsonSerializer<GradientColor.Stop> {

@@ -1,5 +1,7 @@
 package com.vaadin.flow.component.applayout;
 
+import java.util.Objects;
+
 /*
  * #%L
  * Vaadin App Layout
@@ -29,8 +31,6 @@ import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.dependency.NpmPackage;
 import com.vaadin.flow.router.RouterLayout;
-
-import java.util.Objects;
 
 /**
  * Server-side component for the {@code <vaadin-app-layout>} element.

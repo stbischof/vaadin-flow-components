@@ -1,8 +1,9 @@
 package com.vaadin.flow.component.crud.test;
 
+import org.junit.Test;
+
 import com.vaadin.flow.component.button.testbench.ButtonElement;
 import com.vaadin.flow.component.crud.testbench.CrudElement;
-import org.junit.Test;
 
 public class EditorPositionIT extends AbstractParallelTest {
 

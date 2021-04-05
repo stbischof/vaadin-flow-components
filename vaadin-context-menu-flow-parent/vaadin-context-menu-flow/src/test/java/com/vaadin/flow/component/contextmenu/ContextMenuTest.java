@@ -21,7 +21,6 @@ import java.io.ObjectOutputStream;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.vaadin.flow.component.html.NativeButton;
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
@@ -29,6 +28,7 @@ import org.junit.Test;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.Label;
+import com.vaadin.flow.component.html.NativeButton;
 
 /**
  * Unit tests for the ContextMenu.

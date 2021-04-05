@@ -1,5 +1,7 @@
 package com.vaadin.flow.component.charts.model;
 
+import com.vaadin.flow.component.charts.model.style.ButtonTheme;
+
 /*-
  * #%L
  * Vaadin Charts for Flow
@@ -15,7 +17,6 @@ package com.vaadin.flow.component.charts.model;
 
 
 import com.vaadin.flow.component.charts.model.style.Color;
-import com.vaadin.flow.component.charts.model.style.ButtonTheme;
 
 /**
  * Options for the export button.

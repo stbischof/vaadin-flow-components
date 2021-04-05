@@ -16,6 +16,11 @@
 
 package com.vaadin.flow.component.avatar;
 
+import java.io.Serializable;
+import java.util.Objects;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.HasSize;
 import com.vaadin.flow.component.HasStyle;
@@ -25,12 +30,8 @@ import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.dependency.NpmPackage;
 import com.vaadin.flow.internal.JsonSerializer;
 import com.vaadin.flow.server.AbstractStreamResource;
-import elemental.json.JsonObject;
 
-import java.io.Serializable;
-import java.util.Objects;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import elemental.json.JsonObject;
 
 /**
  * Server-side component for the <code>vaadin-avatar</code> element.

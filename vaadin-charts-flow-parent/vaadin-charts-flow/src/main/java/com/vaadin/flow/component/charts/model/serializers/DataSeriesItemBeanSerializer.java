@@ -1,5 +1,7 @@
 package com.vaadin.flow.component.charts.model.serializers;
 
+import java.io.IOException;
+
 /*-
  * #%L
  * Vaadin Charts for Flow
@@ -20,8 +22,6 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.JsonNodeFactory;
 import com.vaadin.flow.component.charts.model.DataSeriesItem;
 import com.vaadin.flow.component.charts.model.OhlcItem;
-
-import java.io.IOException;
 
 /**
  * Custom bean serializer for {@link DataSeriesItem}

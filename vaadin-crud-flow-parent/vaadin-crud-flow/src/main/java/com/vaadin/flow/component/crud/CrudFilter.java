@@ -1,5 +1,9 @@
 package com.vaadin.flow.component.crud;
 
+import java.io.Serializable;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 /*
  * #%L
  * Vaadin Crud for Vaadin 10
@@ -17,10 +21,6 @@ package com.vaadin.flow.component.crud;
  */
 
 import com.vaadin.flow.data.provider.SortDirection;
-
-import java.io.Serializable;
-import java.util.LinkedHashMap;
-import java.util.Map;
 
 /**
  * The filter type for use with {@link CrudGrid}.

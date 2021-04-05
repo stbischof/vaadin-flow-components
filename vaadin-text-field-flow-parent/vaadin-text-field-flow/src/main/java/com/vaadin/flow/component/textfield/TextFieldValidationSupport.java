@@ -1,11 +1,11 @@
 package com.vaadin.flow.component.textfield;
 
-import com.vaadin.flow.component.HasValue;
-
 import java.io.Serializable;
 import java.util.Objects;
 import java.util.function.BooleanSupplier;
 import java.util.regex.Pattern;
+
+import com.vaadin.flow.component.HasValue;
 
 /**
  * Utility class for performing server-side validation of string values in text fields. This is needed because it is

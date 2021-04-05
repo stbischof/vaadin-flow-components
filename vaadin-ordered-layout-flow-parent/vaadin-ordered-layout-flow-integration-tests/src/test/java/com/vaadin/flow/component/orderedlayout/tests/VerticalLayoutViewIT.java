@@ -15,13 +15,13 @@
  */
 package com.vaadin.flow.component.orderedlayout.tests;
 
-import com.vaadin.flow.component.orderedlayout.FlexComponent;
-import com.vaadin.flow.component.radiobutton.testbench.RadioButtonGroupElement;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import com.vaadin.flow.component.orderedlayout.FlexComponent;
+import com.vaadin.flow.component.radiobutton.testbench.RadioButtonGroupElement;
 import com.vaadin.tests.ComponentDemoTest;
 
 /**

@@ -1,12 +1,13 @@
 package com.vaadin.flow.component.accordion.test;
 
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
 import com.vaadin.flow.component.accordion.testbench.AccordionElement;
 import com.vaadin.flow.component.accordion.testbench.AccordionPanelElement;
 import com.vaadin.flow.component.orderedlayout.testbench.VerticalLayoutElement;
 import com.vaadin.testbench.ElementQuery;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 
 public class TemplateSupportIT extends AbstractParallelTest {
 

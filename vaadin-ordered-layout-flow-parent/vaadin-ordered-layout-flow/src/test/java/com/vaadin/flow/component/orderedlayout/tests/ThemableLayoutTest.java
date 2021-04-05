@@ -1,5 +1,8 @@
 package com.vaadin.flow.component.orderedlayout.tests;
 
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
@@ -7,12 +10,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.vaadin.flow.component.orderedlayout.ThemableLayout;
-import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.dom.Element;
 import com.vaadin.flow.dom.ElementFactory;
-
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
 
 /**
  * @author Vaadin Ltd.

@@ -16,15 +16,15 @@
 
 package com.vaadin.flow.component.grid.it;
 
+import static com.vaadin.flow.component.grid.it.GridClearAfterDetachAndReattachPage.CLEAR_BUTTON_ID;
+import static com.vaadin.flow.component.grid.it.GridClearAfterDetachAndReattachPage.GRID_ID;
+import static com.vaadin.flow.component.grid.it.GridClearAfterDetachAndReattachPage.GRID_ROW_COUNT;
+
 import org.junit.Test;
 
 import com.vaadin.flow.component.grid.testbench.GridElement;
 import com.vaadin.flow.testutil.TestPath;
 import com.vaadin.tests.AbstractComponentIT;
-
-import static com.vaadin.flow.component.grid.it.GridClearAfterDetachAndReattachPage.CLEAR_BUTTON_ID;
-import static com.vaadin.flow.component.grid.it.GridClearAfterDetachAndReattachPage.GRID_ID;
-import static com.vaadin.flow.component.grid.it.GridClearAfterDetachAndReattachPage.GRID_ROW_COUNT;
 
 @TestPath("vaadin-grid/clean-grid-items-after-detach-and-reattach")
 public class GridClearAfterDetachAndReattachIT extends AbstractComponentIT {

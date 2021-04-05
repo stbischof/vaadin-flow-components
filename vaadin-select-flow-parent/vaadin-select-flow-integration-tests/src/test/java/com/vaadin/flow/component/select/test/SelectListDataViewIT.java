@@ -2,15 +2,16 @@ package com.vaadin.flow.component.select.test;
 
 import java.util.stream.Collectors;
 
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+
 import com.vaadin.flow.component.select.examples.SelectListDataViewPage;
 import com.vaadin.flow.component.select.testbench.SelectElement;
 import com.vaadin.flow.testutil.TestPath;
 import com.vaadin.testbench.TestBenchElement;
 import com.vaadin.tests.AbstractComponentIT;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
 
 @TestPath("vaadin-select-list-data-view")
 public class SelectListDataViewIT extends AbstractComponentIT {

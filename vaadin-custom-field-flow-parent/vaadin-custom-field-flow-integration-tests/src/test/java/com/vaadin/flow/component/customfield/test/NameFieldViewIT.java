@@ -1,9 +1,10 @@
 package com.vaadin.flow.component.customfield.test;
 
-import com.vaadin.flow.component.customfield.testbench.CustomFieldElement;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import com.vaadin.flow.component.customfield.testbench.CustomFieldElement;
 
 public class NameFieldViewIT extends AbstractParallelTest {
 

@@ -1,6 +1,10 @@
 package com.vaadin.flow.component.crud.testbench;
 
 
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
 /*
  * #%L
  * Vaadin Crud Testbench API
@@ -25,10 +29,6 @@ import com.vaadin.flow.component.textfield.testbench.TextFieldElement;
 import com.vaadin.testbench.ElementQuery;
 import com.vaadin.testbench.TestBenchElement;
 import com.vaadin.testbench.elementsbase.Element;
-
-import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 /**
  * TestBench element for the vaadin-crud element

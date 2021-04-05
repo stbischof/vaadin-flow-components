@@ -1,5 +1,8 @@
 package com.vaadin.flow.component.charts.model.serializers;
 
+import java.io.IOException;
+import java.util.Set;
+
 /*-
  * #%L
  * Vaadin Charts for Flow
@@ -20,9 +23,6 @@ import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.impl.BeanAsArraySerializer;
 import com.fasterxml.jackson.databind.ser.impl.ObjectIdWriter;
 import com.fasterxml.jackson.databind.ser.std.BeanSerializerBase;
-
-import java.io.IOException;
-import java.util.Set;
 
 /**
  * Delegates serialization calls to the given instance of

@@ -1,15 +1,5 @@
 package com.vaadin.flow.component.radiobutton.tests;
 
-import java.util.List;
-
-import com.vaadin.flow.testutil.TestPath;
-import com.vaadin.tests.AbstractComponentIT;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-
 import static com.vaadin.flow.component.radiobutton.tests.RadioButtonGroupDataViewPage.CURRENT_ITEM_SPAN;
 import static com.vaadin.flow.component.radiobutton.tests.RadioButtonGroupDataViewPage.DATA_VIEW_UPDATE_BUTTON;
 import static com.vaadin.flow.component.radiobutton.tests.RadioButtonGroupDataViewPage.HAS_NEXT_ITEM_SPAN;
@@ -36,6 +26,17 @@ import static com.vaadin.flow.component.radiobutton.tests.RadioButtonGroupDataVi
 import static com.vaadin.flow.component.radiobutton.tests.RadioButtonGroupDataViewPage.RADIO_GROUP_SELECTED_ID_SPAN;
 import static com.vaadin.flow.component.radiobutton.tests.RadioButtonGroupDataViewPage.RADIO_GROUP_SELECTION_BY_ID_AND_NAME_UPDATE_BUTTON;
 import static com.vaadin.flow.component.radiobutton.tests.RadioButtonGroupDataViewPage.RADIO_GROUP_SELECTION_BY_ID_UPDATE_BUTTON;
+
+import java.util.List;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.vaadin.flow.testutil.TestPath;
+import com.vaadin.tests.AbstractComponentIT;
 
 @TestPath("vaadin-radio-button/radio-Button-group-data-view")
 public class RadioButtonGroupDataViewPageIT extends AbstractComponentIT {

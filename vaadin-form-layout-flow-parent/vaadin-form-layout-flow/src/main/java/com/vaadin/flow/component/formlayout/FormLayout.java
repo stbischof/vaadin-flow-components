@@ -28,7 +28,6 @@ import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.HasComponents;
 import com.vaadin.flow.component.HasSize;
 import com.vaadin.flow.component.JsonSerializable;
-
 import com.vaadin.flow.component.html.Label;
 
 import elemental.json.Json;

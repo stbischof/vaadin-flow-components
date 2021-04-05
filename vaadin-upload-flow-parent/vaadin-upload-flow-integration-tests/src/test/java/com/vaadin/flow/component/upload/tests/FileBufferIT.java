@@ -1,14 +1,15 @@
 package com.vaadin.flow.component.upload.tests;
 
-import com.vaadin.flow.component.upload.testbench.UploadElement;
-import com.vaadin.flow.testutil.TestPath;
+import java.io.File;
+
 import org.junit.Assert;
 import org.junit.AssumptionViolatedException;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import java.io.File;
+import com.vaadin.flow.component.upload.testbench.UploadElement;
+import com.vaadin.flow.testutil.TestPath;
 
 /**
  * Tests for Upload using FileBuffer and MultiFileBuffer.

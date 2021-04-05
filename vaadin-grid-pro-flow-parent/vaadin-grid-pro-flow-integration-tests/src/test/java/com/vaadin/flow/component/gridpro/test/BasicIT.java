@@ -1,16 +1,16 @@
 package com.vaadin.flow.component.gridpro.test;
 
-import com.vaadin.flow.component.gridpro.testbench.GridProElement;
-import com.vaadin.flow.component.gridpro.testbench.GridTHTDElement;
-import com.vaadin.testbench.TestBenchElement;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.Keys;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.vaadin.flow.component.gridpro.testbench.GridProElement;
+import com.vaadin.flow.component.gridpro.testbench.GridTHTDElement;
+import com.vaadin.testbench.TestBenchElement;
 
 public class BasicIT extends AbstractParallelTest {
 

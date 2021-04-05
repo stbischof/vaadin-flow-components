@@ -25,9 +25,9 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-import com.vaadin.tests.ComponentDemoTest;
 import com.vaadin.flow.component.radiobutton.testbench.RadioButtonGroupElement;
 import com.vaadin.testbench.TestBenchElement;
+import com.vaadin.tests.ComponentDemoTest;
 
 public class RadioButtonGroupIT extends ComponentDemoTest {
 

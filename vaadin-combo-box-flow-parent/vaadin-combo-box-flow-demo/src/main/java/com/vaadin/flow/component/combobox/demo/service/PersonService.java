@@ -1,11 +1,11 @@
 package com.vaadin.flow.component.combobox.demo.service;
 
-import com.vaadin.flow.component.combobox.demo.data.PersonData;
-import com.vaadin.flow.component.combobox.demo.entity.Person;
-
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Stream;
+
+import com.vaadin.flow.component.combobox.demo.data.PersonData;
+import com.vaadin.flow.component.combobox.demo.entity.Person;
 
 public class PersonService {
     private final PersonData personData;

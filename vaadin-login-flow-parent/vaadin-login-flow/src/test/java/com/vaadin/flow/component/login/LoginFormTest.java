@@ -1,10 +1,11 @@
 package com.vaadin.flow.component.login;
 
-import com.vaadin.flow.component.ComponentUtil;
+import java.util.concurrent.atomic.AtomicInteger;
+
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.concurrent.atomic.AtomicInteger;
+import com.vaadin.flow.component.ComponentUtil;
 
 public class LoginFormTest {
 

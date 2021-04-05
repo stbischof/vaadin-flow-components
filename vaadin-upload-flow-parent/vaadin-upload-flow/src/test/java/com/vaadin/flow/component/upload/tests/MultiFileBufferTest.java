@@ -1,13 +1,14 @@
 package com.vaadin.flow.component.upload.tests;
 
-import com.vaadin.flow.component.upload.receivers.MultiFileBuffer;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.nio.charset.Charset;
+
 import org.apache.commons.io.IOUtils;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.io.IOException;
-import java.io.OutputStream;
-import java.nio.charset.Charset;
+import com.vaadin.flow.component.upload.receivers.MultiFileBuffer;
 
 public class MultiFileBufferTest {
 

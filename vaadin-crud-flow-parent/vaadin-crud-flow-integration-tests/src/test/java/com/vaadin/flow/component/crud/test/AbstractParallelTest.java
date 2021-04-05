@@ -1,16 +1,15 @@
 package com.vaadin.flow.component.crud.test;
 
-import com.vaadin.flow.component.orderedlayout.testbench.VerticalLayoutElement;
-
-import com.vaadin.testbench.parallel.BrowserUtil;
-import com.vaadin.tests.ParallelTest;
-import org.junit.Assert;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.Platform;
-import org.openqa.selenium.remote.DesiredCapabilities;
-
 import java.util.Arrays;
 import java.util.List;
+
+import org.junit.Assert;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import com.vaadin.flow.component.orderedlayout.testbench.VerticalLayoutElement;
+import com.vaadin.testbench.parallel.BrowserUtil;
+import com.vaadin.tests.ParallelTest;
 
 public abstract class AbstractParallelTest extends ParallelTest {
 

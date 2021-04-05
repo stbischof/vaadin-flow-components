@@ -1,10 +1,13 @@
 package com.vaadin.flow.component.grid;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicReference;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
 
 import com.vaadin.flow.component.ComponentUtil;
 import com.vaadin.flow.component.UI;
@@ -14,9 +17,6 @@ import com.vaadin.flow.component.dnd.EffectAllowed;
 import com.vaadin.flow.component.grid.dnd.GridDragEndEvent;
 import com.vaadin.flow.component.grid.dnd.GridDragStartEvent;
 import com.vaadin.flow.router.RouterLink;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 
 import elemental.json.Json;
 import elemental.json.JsonArray;

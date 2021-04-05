@@ -22,6 +22,10 @@ import java.util.Collection;
 import java.util.List;
 import java.util.stream.Stream;
 
+import org.junit.Assert;
+import org.junit.Test;
+import org.mockito.Mockito;
+
 import com.vaadin.flow.component.select.Select;
 import com.vaadin.flow.data.provider.AbstractComponentDataViewTest;
 import com.vaadin.flow.data.provider.AbstractDataProvider;
@@ -35,9 +39,6 @@ import com.vaadin.flow.data.provider.Query;
 import com.vaadin.flow.function.SerializableComparator;
 import com.vaadin.flow.function.SerializablePredicate;
 import com.vaadin.flow.shared.Registration;
-import org.junit.Assert;
-import org.junit.Test;
-import org.mockito.Mockito;
 
 public class SelectDataViewTest extends AbstractComponentDataViewTest {
 

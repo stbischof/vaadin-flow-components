@@ -15,11 +15,12 @@
  */
 package com.vaadin.flow.component.ironlist.tests;
 
-import com.vaadin.flow.component.ironlist.IronList;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
+
+import com.vaadin.flow.component.ironlist.IronList;
 
 public class IronListTest {
 

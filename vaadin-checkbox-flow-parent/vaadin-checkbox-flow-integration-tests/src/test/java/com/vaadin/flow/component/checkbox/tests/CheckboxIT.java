@@ -15,11 +15,12 @@
  */
 package com.vaadin.flow.component.checkbox.tests;
 
-import com.vaadin.tests.ComponentDemoTest;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+
+import com.vaadin.tests.ComponentDemoTest;
 
 /**
  * Integration tests for the {@link CheckboxDemoPage}.

@@ -1,5 +1,10 @@
 package com.vaadin.flow.component.charts;
 
+import java.util.stream.Stream;
+
+import org.junit.Assert;
+import org.junit.Test;
+
 /*-
  * #%L
  * Vaadin Charts for Flow
@@ -14,11 +19,8 @@ package com.vaadin.flow.component.charts;
  */
 
 import com.vaadin.flow.testutil.ClassesSerializableTest;
-import elemental.json.impl.JreJsonFactory;
-import org.junit.Assert;
-import org.junit.Test;
 
-import java.util.stream.Stream;
+import elemental.json.impl.JreJsonFactory;
 
 public class ChartsSerializableTest extends ClassesSerializableTest {
     @Override

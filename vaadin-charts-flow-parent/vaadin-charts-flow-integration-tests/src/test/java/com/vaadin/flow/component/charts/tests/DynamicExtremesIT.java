@@ -12,13 +12,14 @@
  */
 package com.vaadin.flow.component.charts.tests;
 
-import com.vaadin.flow.component.charts.demo.AbstractChartExample;
-import com.vaadin.flow.component.charts.demo.examples.dynamic.DynamicExtremes;
-import com.vaadin.flow.component.charts.testbench.ChartElement;
+import static org.junit.Assert.assertNotEquals;
+
 import org.junit.Test;
 import org.openqa.selenium.By;
 
-import static org.junit.Assert.assertNotEquals;
+import com.vaadin.flow.component.charts.demo.AbstractChartExample;
+import com.vaadin.flow.component.charts.demo.examples.dynamic.DynamicExtremes;
+import com.vaadin.flow.component.charts.testbench.ChartElement;
 
 public class DynamicExtremesIT extends AbstractTBTest {
 

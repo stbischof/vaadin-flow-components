@@ -14,7 +14,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import com.vaadin.flow.component.cookieconsent.CookieConsent.Position;
 import com.vaadin.flow.component.cookieconsent.testbench.CookieConsentElement;
-
 import com.vaadin.testbench.parallel.BrowserUtil;
 import com.vaadin.tests.ParallelTest;
 

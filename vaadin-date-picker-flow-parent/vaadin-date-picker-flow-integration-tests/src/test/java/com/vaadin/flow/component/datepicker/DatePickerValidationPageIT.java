@@ -15,12 +15,12 @@
  */
 package com.vaadin.flow.component.datepicker;
 
+import static org.junit.Assert.assertTrue;
+
 import java.time.LocalDate;
 import java.util.logging.Level;
 import java.util.stream.IntStream;
 
-import com.google.common.base.Strings;
-import com.vaadin.flow.component.datepicker.testbench.DatePickerElement;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -28,10 +28,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
-import com.vaadin.tests.AbstractComponentIT;
+import com.google.common.base.Strings;
+import com.vaadin.flow.component.datepicker.testbench.DatePickerElement;
 import com.vaadin.flow.testutil.TestPath;
-
-import static org.junit.Assert.assertTrue;
+import com.vaadin.tests.AbstractComponentIT;
 
 /**
  * Integration tests for {@link DatePicker} validation.

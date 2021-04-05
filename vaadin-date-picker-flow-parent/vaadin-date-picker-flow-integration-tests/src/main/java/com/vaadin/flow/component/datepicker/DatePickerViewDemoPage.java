@@ -16,15 +16,15 @@
      */
 package com.vaadin.flow.component.datepicker;
 
-    import com.vaadin.flow.component.html.Div;
-    import com.vaadin.flow.component.html.Label;
-    import com.vaadin.flow.component.html.NativeButton;
-    import com.vaadin.flow.demo.DemoView;
-    import com.vaadin.flow.router.Route;
-
     import java.time.LocalDate;
-    import java.util.Arrays;
-    import java.util.Locale;
+import java.util.Arrays;
+import java.util.Locale;
+
+import com.vaadin.flow.component.html.Div;
+import com.vaadin.flow.component.html.Label;
+import com.vaadin.flow.component.html.NativeButton;
+import com.vaadin.flow.demo.DemoView;
+import com.vaadin.flow.router.Route;
 
     /**
      * View for {@link DatePicker} demo.

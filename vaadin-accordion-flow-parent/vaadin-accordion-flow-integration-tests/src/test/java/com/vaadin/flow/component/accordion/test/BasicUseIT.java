@@ -1,15 +1,16 @@
 package com.vaadin.flow.component.accordion.test;
 
-import com.vaadin.flow.component.accordion.testbench.AccordionPanelElement;
-import com.vaadin.flow.component.button.testbench.ButtonElement;
-import com.vaadin.flow.component.accordion.testbench.AccordionElement;
-import com.vaadin.testbench.TestBenchElement;
+import static com.vaadin.flow.component.accordion.examples.MainView.ACCORDION_EVENTS;
+import static com.vaadin.flow.component.accordion.examples.MainView.PANEL_EVENTS;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static com.vaadin.flow.component.accordion.examples.MainView.ACCORDION_EVENTS;
-import static com.vaadin.flow.component.accordion.examples.MainView.PANEL_EVENTS;
+import com.vaadin.flow.component.accordion.testbench.AccordionElement;
+import com.vaadin.flow.component.accordion.testbench.AccordionPanelElement;
+import com.vaadin.flow.component.button.testbench.ButtonElement;
+import com.vaadin.testbench.TestBenchElement;
 
 public class BasicUseIT extends AbstractParallelTest {
 

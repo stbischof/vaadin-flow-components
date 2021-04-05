@@ -1,5 +1,11 @@
 package com.vaadin.flow.component.login;
 
+import java.io.IOException;
+import java.io.Serializable;
+import java.nio.charset.StandardCharsets;
+
+import org.apache.commons.io.IOUtils;
+
 /*
  * #%L
  * Login for Vaadin Flow
@@ -21,14 +27,10 @@ package com.vaadin.flow.component.login;
  */
 
 import com.vaadin.flow.internal.JsonSerializer;
+
 import elemental.json.JsonFactory;
 import elemental.json.JsonValue;
 import elemental.json.impl.JreJsonFactory;
-import org.apache.commons.io.IOUtils;
-
-import java.io.IOException;
-import java.io.Serializable;
-import java.nio.charset.StandardCharsets;
 
 /**
  * Internationalization object for customizing the component UI texts.

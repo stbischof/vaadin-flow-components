@@ -1,5 +1,18 @@
 package com.vaadin.flow.component.crud.demo;
 
+import static java.util.Comparator.naturalOrder;
+import static java.util.stream.Collectors.toList;
+
+import java.lang.reflect.Field;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
 import com.vaadin.flow.component.ClickEvent;
 import com.vaadin.flow.component.ComponentEventListener;
 import com.vaadin.flow.component.ComponentUtil;
@@ -31,19 +44,6 @@ import com.vaadin.flow.data.value.ValueChangeMode;
 import com.vaadin.flow.demo.DemoView;
 import com.vaadin.flow.dom.DebouncePhase;
 import com.vaadin.flow.router.Route;
-
-import java.lang.reflect.Field;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
-
-import static java.util.Comparator.naturalOrder;
-import static java.util.stream.Collectors.toList;
 
 @SuppressWarnings("serial")
 @Route("vaadin-crud")

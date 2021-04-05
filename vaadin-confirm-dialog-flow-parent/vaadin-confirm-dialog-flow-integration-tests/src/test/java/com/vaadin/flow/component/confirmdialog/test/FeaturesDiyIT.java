@@ -1,8 +1,9 @@
 package com.vaadin.flow.component.confirmdialog.test;
 
+import org.junit.Test;
+
 import com.vaadin.flow.component.confirmdialog.examples.FeaturesDiy;
 import com.vaadin.flow.component.confirmdialog.test.helpers.Actionwords;
-import org.junit.Test;
 
 public class FeaturesDiyIT extends AbstractParallelTest {
 

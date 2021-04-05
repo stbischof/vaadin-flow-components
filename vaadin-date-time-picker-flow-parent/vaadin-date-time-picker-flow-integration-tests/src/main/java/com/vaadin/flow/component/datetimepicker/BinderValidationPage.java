@@ -15,13 +15,14 @@
  */
 package com.vaadin.flow.component.datetimepicker;
 
+import java.time.LocalDateTime;
+
+import javax.validation.constraints.NotNull;
+
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.data.binder.Binder;
 import com.vaadin.flow.dom.Element;
 import com.vaadin.flow.router.Route;
-
-import javax.validation.constraints.NotNull;
-import java.time.LocalDateTime;
 
 @Route("vaadin-date-time-picker/binder-validation")
 public class BinderValidationPage extends Div {

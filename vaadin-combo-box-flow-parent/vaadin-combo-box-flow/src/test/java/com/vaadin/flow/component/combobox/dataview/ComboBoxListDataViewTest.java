@@ -22,15 +22,16 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Stream;
 
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
 import com.vaadin.flow.component.combobox.ComboBox;
 import com.vaadin.flow.data.provider.AbstractListDataViewListenerTest;
 import com.vaadin.flow.data.provider.DataCommunicator;
 import com.vaadin.flow.data.provider.DataCommunicatorTest;
 import com.vaadin.flow.data.provider.DataKeyMapper;
 import com.vaadin.flow.data.provider.HasListDataView;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 
 public class ComboBoxListDataViewTest extends AbstractListDataViewListenerTest {
 

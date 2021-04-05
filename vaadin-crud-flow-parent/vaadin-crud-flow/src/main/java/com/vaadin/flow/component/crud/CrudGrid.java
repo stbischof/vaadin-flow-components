@@ -1,5 +1,7 @@
 package com.vaadin.flow.component.crud;
 
+import java.util.List;
+
 /*
  * #%L
  * Vaadin Crud for Vaadin 10
@@ -23,8 +25,6 @@ import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.data.provider.ConfigurableFilterDataProvider;
 import com.vaadin.flow.data.provider.DataProvider;
 import com.vaadin.flow.data.value.ValueChangeMode;
-
-import java.util.List;
 
 /**
  * A simple grid implementation for Crud that allows searching and sorting backed by a data provider.

@@ -1,5 +1,9 @@
 package com.vaadin.flow.component.charts.model.serializers;
 
+import java.io.IOException;
+import java.time.Instant;
+import java.util.Date;
+
 /*-
  * #%L
  * Vaadin Charts for Flow
@@ -21,10 +25,6 @@ import com.fasterxml.jackson.databind.Module;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.vaadin.flow.component.charts.util.Util;
-
-import java.io.IOException;
-import java.time.Instant;
-import java.util.Date;
 
 /**
  * Serializes all {@link Date} objects as UTC long.

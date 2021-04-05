@@ -16,6 +16,13 @@
 
 package com.vaadin.flow.component.timepicker.tests;
 
+import java.time.Duration;
+import java.time.LocalTime;
+import java.time.temporal.ChronoField;
+import java.util.Arrays;
+import java.util.Locale;
+import java.util.stream.Collectors;
+
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.timepicker.TimePicker;
@@ -24,13 +31,6 @@ import com.vaadin.flow.router.BeforeEvent;
 import com.vaadin.flow.router.HasUrlParameter;
 import com.vaadin.flow.router.OptionalParameter;
 import com.vaadin.flow.router.Route;
-
-import java.time.Duration;
-import java.time.LocalTime;
-import java.time.temporal.ChronoField;
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.stream.Collectors;
 
 @Route("vaadin-time-picker/time-picker-localization")
 public class TimePickerLocalizationView extends Div

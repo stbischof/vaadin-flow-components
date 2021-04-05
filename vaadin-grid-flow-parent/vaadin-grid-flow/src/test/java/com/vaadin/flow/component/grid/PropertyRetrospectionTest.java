@@ -1,12 +1,12 @@
 package com.vaadin.flow.component.grid;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.data.binder.BeanPropertySet;
 import com.vaadin.flow.data.binder.Binder;
-
-import static org.junit.Assert.assertEquals;
 
 public class PropertyRetrospectionTest {
 

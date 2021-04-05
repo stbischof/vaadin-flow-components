@@ -15,22 +15,22 @@
  */
 package com.vaadin.flow.component.splitlayout.tests;
 
-import com.vaadin.flow.component.html.testbench.DivElement;
+import java.util.function.Consumer;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.interactions.Actions;
 
+import com.vaadin.flow.component.html.testbench.DivElement;
 import com.vaadin.flow.component.html.testbench.NativeButtonElement;
 import com.vaadin.flow.component.html.testbench.SpanElement;
 import com.vaadin.flow.component.splitlayout.demo.SplitLayoutView;
 import com.vaadin.flow.component.splitlayout.test.SplitterPositionView;
 import com.vaadin.flow.component.splitlayout.testbench.SplitLayoutElement;
-import com.vaadin.tests.AbstractComponentIT;
 import com.vaadin.flow.testutil.TestPath;
 import com.vaadin.testbench.TestBenchElement;
-import org.openqa.selenium.interactions.Actions;
-
-import java.util.function.Consumer;
+import com.vaadin.tests.AbstractComponentIT;
 
 /**
  * Integration tests for {@link SplitLayoutView}.

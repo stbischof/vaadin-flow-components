@@ -17,10 +17,9 @@ package com.vaadin.flow.component.grid.it;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.By;
 
-import com.vaadin.tests.AbstractComponentIT;
 import com.vaadin.flow.testutil.TestPath;
+import com.vaadin.tests.AbstractComponentIT;
 
 @TestPath("vaadin-grid/refresh-invisible-grid")
 public class RefreshAndMakeVisibleGridIT extends AbstractComponentIT {

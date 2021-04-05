@@ -1,5 +1,8 @@
 package com.vaadin.flow.component.charts.model.serializers;
 
+import java.io.IOException;
+import java.util.Set;
+
 /*
  * #%L
  * Vaadin Charts
@@ -20,10 +23,8 @@ import com.fasterxml.jackson.databind.node.JsonNodeFactory;
 import com.fasterxml.jackson.databind.ser.impl.BeanAsArraySerializer;
 import com.fasterxml.jackson.databind.ser.impl.ObjectIdWriter;
 import com.fasterxml.jackson.databind.ser.std.BeanSerializerBase;
+import com.vaadin.flow.component.charts.ChartOptions;
 import com.vaadin.flow.component.charts.model.style.GradientColor;
-
-import java.io.IOException;
-import java.util.Set;
 
 /**
  * Custom bean serializer for {@link GradientColor} inside {@link ChartOptions}

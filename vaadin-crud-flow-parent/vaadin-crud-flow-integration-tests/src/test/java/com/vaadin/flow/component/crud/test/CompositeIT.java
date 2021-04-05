@@ -1,11 +1,12 @@
 package com.vaadin.flow.component.crud.test;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 import com.vaadin.flow.component.button.testbench.ButtonElement;
 import com.vaadin.flow.component.crud.testbench.CrudElement;
 import com.vaadin.flow.component.dialog.testbench.DialogElement;
 import com.vaadin.flow.component.textfield.testbench.TextFieldElement;
-import org.junit.Assert;
-import org.junit.Test;
 
 public class CompositeIT extends AbstractParallelTest {
 

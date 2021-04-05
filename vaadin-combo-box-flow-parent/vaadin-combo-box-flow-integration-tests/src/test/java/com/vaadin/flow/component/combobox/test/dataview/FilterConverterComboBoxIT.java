@@ -22,11 +22,11 @@ import static com.vaadin.flow.component.combobox.test.dataview.FilterConverterCo
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 
 import com.vaadin.flow.component.combobox.test.AbstractComboBoxIT;
 import com.vaadin.flow.component.combobox.testbench.ComboBoxElement;
 import com.vaadin.flow.testutil.TestPath;
-import org.openqa.selenium.Keys;
 
 @TestPath("filter-converter-lazy-data-view-combo-box-page")
 public class FilterConverterComboBoxIT extends AbstractComboBoxIT {

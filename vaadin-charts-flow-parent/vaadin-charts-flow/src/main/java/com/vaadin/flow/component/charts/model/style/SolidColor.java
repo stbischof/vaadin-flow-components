@@ -1,5 +1,7 @@
 package com.vaadin.flow.component.charts.model.style;
 
+import java.util.Locale;
+
 /*-
  * #%L
  * Vaadin Charts for Flow
@@ -16,8 +18,6 @@ package com.vaadin.flow.component.charts.model.style;
 
 
 import com.vaadin.flow.component.charts.model.AbstractConfigurationObject;
-
-import java.util.Locale;
 
 /**
  * Solid (non gradient) colors

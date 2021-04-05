@@ -1,9 +1,9 @@
 package com.vaadin.flow.component.grid.demo.data;
 
-import com.vaadin.flow.component.grid.demo.entity.Customer;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import com.vaadin.flow.component.grid.demo.entity.Customer;
 
 public class CustomerData {
     private static final List<Customer> CUSTOMER_LIST = createCustomerList();

@@ -4,13 +4,14 @@ import static org.junit.Assert.assertTrue;
 
 import java.io.IOException;
 
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
 import com.vaadin.flow.component.charts.demo.AbstractChartExample;
 import com.vaadin.flow.component.charts.demo.examples.column.ColumnWithLazyMultiLevelDrilldown;
 import com.vaadin.flow.component.charts.testbench.ChartElement;
 import com.vaadin.testbench.TestBenchElement;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 public class ColumnWithLazyMultiLevelDrilldownIT extends AbstractTBTest {
 

@@ -1,5 +1,8 @@
 package com.vaadin.flow.component.richtexteditor.testbench;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 /*
  * #%L
  * Vaadin Rich Text Editor Testbench API
@@ -18,9 +21,6 @@ package com.vaadin.flow.component.richtexteditor.testbench;
 
 import com.vaadin.testbench.TestBenchElement;
 import com.vaadin.testbench.elementsbase.Element;
-
-import java.util.List;
-import java.util.stream.Collectors;
 
 
 @Element("vaadin-rich-text-editor")

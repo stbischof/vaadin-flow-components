@@ -1,5 +1,8 @@
 package com.vaadin.flow.component.accordion.testbench;
 
+import java.util.Optional;
+import java.util.OptionalInt;
+
 /*
  * Copyright 2000-2019 Vaadin Ltd.
  *
@@ -19,9 +22,6 @@ package com.vaadin.flow.component.accordion.testbench;
 import com.vaadin.testbench.ElementQuery;
 import com.vaadin.testbench.TestBenchElement;
 import com.vaadin.testbench.elementsbase.Element;
-
-import java.util.Optional;
-import java.util.OptionalInt;
 
 /**
  * TestBench element for the vaadin-accordion element

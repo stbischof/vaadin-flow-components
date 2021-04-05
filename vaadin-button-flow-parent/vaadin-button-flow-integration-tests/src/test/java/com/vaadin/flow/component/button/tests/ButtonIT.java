@@ -15,7 +15,6 @@
  */
 package com.vaadin.flow.component.button.tests;
 
-import com.vaadin.flow.component.button.testbench.ButtonElement;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -25,6 +24,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.vaadin.flow.component.button.testbench.ButtonElement;
 import com.vaadin.tests.ComponentDemoTest;
 
 /**

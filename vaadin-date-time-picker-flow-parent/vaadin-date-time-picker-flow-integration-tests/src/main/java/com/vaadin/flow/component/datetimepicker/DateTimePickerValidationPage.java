@@ -15,13 +15,13 @@
  */
 package com.vaadin.flow.component.datetimepicker;
 
+import java.time.LocalDateTime;
+
 import com.vaadin.flow.component.HasValidation;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.NativeButton;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.testutil.ValidationTestView;
-
-import java.time.LocalDateTime;
 
 /**
  * View for testing validation with {@link DateTimePicker}.

@@ -1,9 +1,9 @@
 package com.vaadin.flow.component.combobox.demo.data;
 
-import com.vaadin.flow.component.combobox.demo.entity.Element;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import com.vaadin.flow.component.combobox.demo.entity.Element;
 
 public class ElementData {
     private final static List<Element> ELEMENT_LIST = createElementList();

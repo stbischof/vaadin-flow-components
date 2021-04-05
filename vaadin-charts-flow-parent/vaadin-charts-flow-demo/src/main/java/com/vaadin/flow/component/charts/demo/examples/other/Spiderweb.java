@@ -3,15 +3,15 @@ package com.vaadin.flow.component.charts.demo.examples.other;
 import com.vaadin.flow.component.charts.Chart;
 import com.vaadin.flow.component.charts.demo.AbstractChartExample;
 import com.vaadin.flow.component.charts.model.Configuration;
+import com.vaadin.flow.component.charts.model.HorizontalAlign;
+import com.vaadin.flow.component.charts.model.LayoutDirection;
+import com.vaadin.flow.component.charts.model.Legend;
+import com.vaadin.flow.component.charts.model.ListSeries;
 import com.vaadin.flow.component.charts.model.TickmarkPlacement;
+import com.vaadin.flow.component.charts.model.Tooltip;
+import com.vaadin.flow.component.charts.model.VerticalAlign;
 import com.vaadin.flow.component.charts.model.XAxis;
 import com.vaadin.flow.component.charts.model.YAxis;
-import com.vaadin.flow.component.charts.model.Tooltip;
-import com.vaadin.flow.component.charts.model.Legend;
-import com.vaadin.flow.component.charts.model.HorizontalAlign;
-import com.vaadin.flow.component.charts.model.VerticalAlign;
-import com.vaadin.flow.component.charts.model.LayoutDirection;
-import com.vaadin.flow.component.charts.model.ListSeries;
 
 public class Spiderweb extends AbstractChartExample {
 

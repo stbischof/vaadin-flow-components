@@ -1,17 +1,18 @@
 package com.vaadin.flow.component.charts.tests;
 
-import com.vaadin.flow.component.charts.demo.AbstractChartExample;
-import com.vaadin.flow.component.charts.demo.examples.column.ColumnWithLazyMultiLevelDrilldownCallbackTests;
-import com.vaadin.flow.component.charts.testbench.ChartElement;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.vaadin.flow.component.charts.demo.AbstractChartExample;
+import com.vaadin.flow.component.charts.demo.examples.column.ColumnWithLazyMultiLevelDrilldownCallbackTests;
+import com.vaadin.flow.component.charts.testbench.ChartElement;
 
 public class ColumnWithLazyMultiLevelDrilldownCallbackTestsIT
     extends AbstractTBTest {

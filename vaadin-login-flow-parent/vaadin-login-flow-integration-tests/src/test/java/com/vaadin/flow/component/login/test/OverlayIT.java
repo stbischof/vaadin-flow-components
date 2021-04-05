@@ -1,10 +1,11 @@
 package com.vaadin.flow.component.login.test;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 import com.vaadin.flow.component.login.testbench.LoginFormElement;
 import com.vaadin.flow.component.login.testbench.LoginOverlayElement;
 import com.vaadin.testbench.TestBenchElement;
-import org.junit.Assert;
-import org.junit.Test;
 
 public class OverlayIT extends BasicIT {
 

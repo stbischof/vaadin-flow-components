@@ -18,18 +18,15 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import com.vaadin.flow.component.charts.demo.AbstractChartExample;
 import com.vaadin.flow.component.charts.testbench.ChartElement;
-
-import com.vaadin.testbench.parallel.Browser;
 import com.vaadin.testbench.parallel.BrowserUtil;
 import com.vaadin.testbench.parallel.DefaultBrowserFactory;
-import com.vaadin.tests.ParallelTest;
 import com.vaadin.testbench.parallel.TestBenchBrowserFactory;
+import com.vaadin.tests.ParallelTest;
 
 public abstract class AbstractTBTest extends ParallelTest {
 

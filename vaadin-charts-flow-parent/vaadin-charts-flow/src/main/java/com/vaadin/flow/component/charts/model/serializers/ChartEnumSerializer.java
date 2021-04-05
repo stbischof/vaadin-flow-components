@@ -1,5 +1,7 @@
 package com.vaadin.flow.component.charts.model.serializers;
 
+import java.io.IOException;
+
 /*-
  * #%L
  * Vaadin Charts for Flow
@@ -21,8 +23,6 @@ import com.fasterxml.jackson.databind.Module;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.vaadin.flow.component.charts.model.ChartEnum;
-
-import java.io.IOException;
 
 /**
  * Serializer for all classes implementing {@link ChartEnum}

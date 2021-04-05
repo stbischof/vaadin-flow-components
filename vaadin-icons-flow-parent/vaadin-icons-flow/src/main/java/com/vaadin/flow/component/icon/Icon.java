@@ -16,6 +16,7 @@
 package com.vaadin.flow.component.icon;
 
 import java.util.Locale;
+
 import com.vaadin.flow.component.ClickNotifier;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.HasStyle;

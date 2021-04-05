@@ -1,9 +1,9 @@
 package com.vaadin.flow.component.combobox.demo.data;
 
-import com.vaadin.flow.component.combobox.demo.entity.Person;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import com.vaadin.flow.component.combobox.demo.entity.Person;
 
 public class PersonData {
 

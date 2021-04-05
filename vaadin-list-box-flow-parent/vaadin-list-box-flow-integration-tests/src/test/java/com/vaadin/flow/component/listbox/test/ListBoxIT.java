@@ -15,19 +15,19 @@
  */
 package com.vaadin.flow.component.listbox.test;
 
+import static org.hamcrest.CoreMatchers.containsString;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
 
-import com.vaadin.flow.component.listbox.testbench.ListBoxElement;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import com.vaadin.flow.component.listbox.testbench.ListBoxElement;
 import com.vaadin.tests.ComponentDemoTest;
-
-import static org.hamcrest.CoreMatchers.containsString;
 
 /**
  * Integration tests for the {@link ListBoxViewDemoPage}.

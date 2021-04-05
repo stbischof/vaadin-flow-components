@@ -25,8 +25,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import com.vaadin.flow.component.contextmenu.demo.ContextMenuView;
-import com.vaadin.tests.ComponentDemoTest;
 import com.vaadin.testbench.TestBenchElement;
+import com.vaadin.tests.ComponentDemoTest;
 
 /**
  * Integration tests for the {@link ContextMenuView}.

@@ -1,5 +1,7 @@
 package com.vaadin.flow.component.gridpro.testbench;
 
+import java.util.ArrayList;
+
 /*
  * #%L
  * Vaadin GridPro Testbench API
@@ -18,8 +20,6 @@ package com.vaadin.flow.component.gridpro.testbench;
 
 
 import com.vaadin.testbench.TestBenchElement;
-
-import java.util.ArrayList;
 
 /**
  * A TestBench element representing a <code>&lt;vaadin-pro-grid-edit-column&gt;</code>

@@ -17,7 +17,6 @@ package com.vaadin.flow.component.checkbox.tests;
 
 import java.util.List;
 
-import com.vaadin.testbench.TestBenchElement;
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
@@ -26,6 +25,7 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import com.vaadin.testbench.TestBenchElement;
 import com.vaadin.tests.ComponentDemoTest;
 
 public class CheckboxGroupIT extends ComponentDemoTest {

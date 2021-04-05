@@ -1,5 +1,15 @@
 package com.vaadin.flow.component.charts.model.serializers;
 
+import static com.vaadin.flow.component.charts.model.DataProviderSeries.CLOSE_PROPERTY;
+import static com.vaadin.flow.component.charts.model.DataProviderSeries.HIGH_PROPERTY;
+import static com.vaadin.flow.component.charts.model.DataProviderSeries.LOW_PROPERTY;
+import static com.vaadin.flow.component.charts.model.DataProviderSeries.OPEN_PROPERTY;
+
+import java.io.IOException;
+import java.util.Map;
+import java.util.Optional;
+import java.util.Set;
+
 /*-
  * #%L
  * Vaadin Charts for Flow
@@ -21,16 +31,6 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.fasterxml.jackson.databind.node.ValueNode;
 import com.vaadin.flow.component.charts.model.DataProviderSeries;
 import com.vaadin.flow.component.charts.model.PlotOptionsSeries;
-
-import java.io.IOException;
-import java.util.Map;
-import java.util.Optional;
-import java.util.Set;
-
-import static com.vaadin.flow.component.charts.model.DataProviderSeries.CLOSE_PROPERTY;
-import static com.vaadin.flow.component.charts.model.DataProviderSeries.HIGH_PROPERTY;
-import static com.vaadin.flow.component.charts.model.DataProviderSeries.LOW_PROPERTY;
-import static com.vaadin.flow.component.charts.model.DataProviderSeries.OPEN_PROPERTY;
 
 
 /**

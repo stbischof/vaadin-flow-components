@@ -1,9 +1,10 @@
 package com.vaadin.flow.component.login.test;
 
-import com.vaadin.flow.component.login.testbench.LoginOverlayElement;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import com.vaadin.flow.component.login.testbench.LoginOverlayElement;
 
 public class I18nIT extends AbstractParallelTest {
 

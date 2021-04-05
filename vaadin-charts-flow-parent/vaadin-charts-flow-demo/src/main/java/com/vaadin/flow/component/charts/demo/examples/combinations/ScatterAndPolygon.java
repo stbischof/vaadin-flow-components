@@ -1,5 +1,7 @@
 package com.vaadin.flow.component.charts.demo.examples.combinations;
 
+import java.util.Random;
+
 import com.vaadin.flow.component.charts.Chart;
 import com.vaadin.flow.component.charts.demo.AbstractChartExample;
 import com.vaadin.flow.component.charts.model.ChartType;
@@ -12,8 +14,6 @@ import com.vaadin.flow.component.charts.model.PlotOptionsScatter;
 import com.vaadin.flow.component.charts.model.Tooltip;
 import com.vaadin.flow.component.charts.model.XAxis;
 import com.vaadin.flow.component.charts.model.YAxis;
-
-import java.util.Random;
 
 public class ScatterAndPolygon extends AbstractChartExample {
     @Override

@@ -1,12 +1,13 @@
 package com.vaadin.flow.component.textfield.tests;
 
-import com.vaadin.testbench.HasStringValueProperty;
-import com.vaadin.testbench.TestBenchElement;
-import com.vaadin.testbench.commands.TestBenchCommandExecutor;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebElement;
+
+import com.vaadin.testbench.HasStringValueProperty;
+import com.vaadin.testbench.TestBenchElement;
+import com.vaadin.testbench.commands.TestBenchCommandExecutor;
 
 class ValidationTestHelper {
 

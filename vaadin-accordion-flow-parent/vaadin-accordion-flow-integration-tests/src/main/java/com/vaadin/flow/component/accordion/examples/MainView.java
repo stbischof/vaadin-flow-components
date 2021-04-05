@@ -1,5 +1,13 @@
 package com.vaadin.flow.component.accordion.examples;
 
+import static java.util.stream.Collectors.toMap;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Optional;
+import java.util.function.Function;
+import java.util.stream.IntStream;
+
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.accordion.Accordion;
 import com.vaadin.flow.component.accordion.AccordionPanel;
@@ -10,14 +18,6 @@ import com.vaadin.flow.component.html.Span;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
-
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Optional;
-import java.util.function.Function;
-import java.util.stream.IntStream;
-
-import static java.util.stream.Collectors.toMap;
 
 @Route(value = "vaadin-accordion")
 public class MainView extends HorizontalLayout {

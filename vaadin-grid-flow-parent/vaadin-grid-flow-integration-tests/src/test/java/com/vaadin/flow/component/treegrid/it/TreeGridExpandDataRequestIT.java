@@ -1,12 +1,12 @@
 package com.vaadin.flow.component.treegrid.it;
 
+import static org.junit.Assert.assertFalse;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
 import com.vaadin.flow.testutil.TestPath;
-
-import static org.junit.Assert.assertFalse;
 
 @TestPath("vaadin-grid/" + TreeGridBasicFeaturesPage.VIEW)
 public class TreeGridExpandDataRequestIT extends AbstractTreeGridIT {

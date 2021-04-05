@@ -1,12 +1,13 @@
 package com.vaadin.flow.component.richtexteditor.test;
 
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
 import com.vaadin.flow.data.value.ValueChangeMode;
 import com.vaadin.flow.testutil.TestPath;
 import com.vaadin.testbench.TestBenchElement;
 import com.vaadin.tests.AbstractComponentIT;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 
 @TestPath(value = "vaadin-rich-text-editor/set-html-value")
 public class RichTextEditorSetHtmlValueIT extends AbstractComponentIT {

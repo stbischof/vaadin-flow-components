@@ -15,13 +15,14 @@
  */
 package com.vaadin.flow.component.textfield;
 
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
+
+import org.junit.Test;
+
 import com.vaadin.flow.component.HasElement;
 import com.vaadin.flow.dom.Element;
 import com.vaadin.flow.dom.ElementFactory;
-import org.junit.Test;
-
-import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
 
 /**
  * Tests for the {@link SlotHelpers}.

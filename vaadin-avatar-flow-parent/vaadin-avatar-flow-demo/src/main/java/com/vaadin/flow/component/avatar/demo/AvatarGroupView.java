@@ -16,16 +16,14 @@
 
 package com.vaadin.flow.component.avatar.demo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.vaadin.flow.component.avatar.AvatarGroup;
 import com.vaadin.flow.component.avatar.AvatarGroup.AvatarGroupItem;
 import com.vaadin.flow.demo.DemoView;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.StreamResource;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import static com.vaadin.flow.component.avatar.demo.AvatarView.getFileStream;
 
 
 /**

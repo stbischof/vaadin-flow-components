@@ -16,16 +16,6 @@
 
 package com.vaadin.flow.component.listbox.test;
 
-import java.util.List;
-
-import com.vaadin.flow.testutil.TestPath;
-import com.vaadin.tests.AbstractComponentIT;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-
 import static com.vaadin.flow.component.listbox.test.ListBoxDataViewPage.CURRENT_ITEM_SPAN;
 import static com.vaadin.flow.component.listbox.test.ListBoxDataViewPage.DATA_VIEW_UPDATE_BUTTON;
 import static com.vaadin.flow.component.listbox.test.ListBoxDataViewPage.HAS_NEXT_ITEM_SPAN;
@@ -55,6 +45,17 @@ import static com.vaadin.flow.component.listbox.test.ListBoxDataViewPage.OTHER_L
 import static com.vaadin.flow.component.listbox.test.ListBoxDataViewPage.OTHER_LIST_BOX_FOR_FILTER_DATA_VIEW;
 import static com.vaadin.flow.component.listbox.test.ListBoxDataViewPage.OTHER_LIST_BOX_FOR_REMOVE_FROM_DATA_VIEW;
 import static com.vaadin.flow.component.listbox.test.ListBoxDataViewPage.OTHER_LIST_BOX_FOR_SORT_DATA_VIEW;
+
+import java.util.List;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.vaadin.flow.testutil.TestPath;
+import com.vaadin.tests.AbstractComponentIT;
 
 @TestPath("vaadin-list-box/list-box-data-view")
 public class ListBoxDataViewIT extends AbstractComponentIT {

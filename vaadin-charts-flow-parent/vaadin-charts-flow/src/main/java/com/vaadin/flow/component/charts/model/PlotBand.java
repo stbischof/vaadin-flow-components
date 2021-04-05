@@ -1,5 +1,8 @@
 package com.vaadin.flow.component.charts.model;
 
+import java.time.Instant;
+import java.util.Date;
+
 /*-
  * #%L
  * Vaadin Charts for Flow
@@ -15,8 +18,6 @@ package com.vaadin.flow.component.charts.model;
 
 
 import com.vaadin.flow.component.charts.model.style.Color;
-import java.util.Date;
-import java.time.Instant;
 import com.vaadin.flow.component.charts.util.Util;
 
 /**

@@ -1,10 +1,10 @@
 package com.vaadin.flow.component.combobox.demo.data;
 
 
-import com.vaadin.flow.component.combobox.demo.entity.Project;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import com.vaadin.flow.component.combobox.demo.entity.Project;
 
 public class ProjectData {
     private final List<Project> PROJECT_LIST = createProjectList();

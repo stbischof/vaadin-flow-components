@@ -1,11 +1,12 @@
 package com.vaadin.flow.component.crud.test;
 
-import com.vaadin.flow.component.crud.testbench.CrudElement;
-import com.vaadin.flow.component.grid.testbench.GridElement;
-import com.vaadin.flow.component.textfield.testbench.TextFieldElement;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import com.vaadin.flow.component.crud.testbench.CrudElement;
+import com.vaadin.flow.component.grid.testbench.GridElement;
+import com.vaadin.flow.component.textfield.testbench.TextFieldElement;
 
 public class CustomSearchIT extends AbstractParallelTest {
 
