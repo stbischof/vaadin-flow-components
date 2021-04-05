@@ -59,9 +59,6 @@
                         <manifestFile>
                             ${project.build.outputDirectory}/META-INF/MANIFEST.MF
                         </manifestFile>
-                        <manifestEntries>
-                            <Built-By/>
-                        </manifestEntries>
                     </archive>
                 </configuration>
             </plugin>
