@@ -171,15 +171,19 @@
           <version>5.3.0</version>
           <configuration>
             <bnd><![CDATA[
-            regexArtifactId: vaadin-(.*)-flow
+            regexArtifactId: vaadin-(.*)-flow(-.*)?
             replacementPattern: $1
             packageNameDash: ${replacestring;${project.artifactId};${regexArtifactId};${replacementPattern}}
-            packageName: ${replacestring;${packageNameDash};'-'}
+            packageNameTmp: ${replacestring;${packageNameDash};'-'}
+
+            isDemoPattern: .*-flow-demo
+            isDemo: ${matches;${project.artifactId};${isDemoPattern}}
+            packageName: ${packageNameTmp}${if;${isDemo};.demo}
 
             Bundle-Name: ${project.artifactId}
             Bundle-SymbolicName: ${project.groupId}.flow.component.${packageName}
             Import-Package: *
-            Export-Package: ${project.groupId}.flow.component.${packageName};-noimport:=true
+            Export-Package: ${project.groupId}.flow.component.${packageName}.*;-noimport:=true
             Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
             Implementation-Title: ${project.name}
             Vaadin-Package-Version: 1
